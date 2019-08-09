@@ -1,5 +1,5 @@
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+$theme-colors: (
+    'primary': #0091ea //Covalence Blue!  :D
+);
 
-.covalence-blue {
-    color: #0091ea;
-}
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
