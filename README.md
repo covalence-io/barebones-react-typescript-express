@@ -2,6 +2,19 @@
 
 &nbsp;
 
+## 📁 Table of Contents
+
+- [🧠 Purpose](#🧠%20Purpose)
+- [👟 Running the Project](#👟%20Running%20the%20Project)
+- [💬 Server](#💬%20Server)
+- [💻 Client](#💻%20Client)
+    * [🙌 Styling the App](#🙌%20Styling%20the%20App)
+- [🗄️ Configuration Files](#🗄️%20Configuration%20Files)
+    * [⁉️ Webpack Config 🤦🤦](#⁉️%20Webpack%20Config%20🤦🤦)
+- [🔐 Closing Remarks](#🔐%20Closing%20Remarks)
+
+&nbsp;
+
 ## 🧠 Purpose
 
 This project is a starting point for a TypeScript based React app that also has a local API server using Express. It serves as an excellent "sandbox" for learning the workflow of a full stack web application from our Bootcamp. There is no connection to any kind of database, but our videos and course cover MySQL and its integration into Node and Express.
