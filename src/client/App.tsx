@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 
+/* HOOK REACT EXAMPLE */
 const App = (props: AppProps) => {
 	const [greeting, setGreeting] = useState<string>('');
 
@@ -26,6 +27,7 @@ const App = (props: AppProps) => {
 
 interface AppProps {}
 
+/* CLASS REACT EXAMPLE */
 // class App extends React.Component<IAppProps, IAppState> {
 // 	constructor(props: IAppProps) {
 // 		super(props);
