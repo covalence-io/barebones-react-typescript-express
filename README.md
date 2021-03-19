@@ -4,14 +4,14 @@
 
 ## 📁 Table of Contents
 
-- [🧠 Purpose](#🧠%20Purpose)
-- [👟 Running the Project](#👟%20Running%20the%20Project)
-- [💬 Server](#💬%20Server)
-- [💻 Client](#💻%20Client)
-    * [🙌 Styling the App](#🙌%20Styling%20the%20App)
-- [🗄️ Configuration Files](#🗄️%20Configuration%20Files)
-    * [⁉️ Webpack Config 🤦🤦](#⁉️%20Webpack%20Config%20🤦🤦)
-- [🔐 Closing Remarks](#🔐%20Closing%20Remarks)
+-   [🧠 Purpose](#-purpose)
+-   [👟 Running the Project](#-running-the-project)
+-   [💬 Server](#-server)
+-   [💻 Client](#-client)
+    -   [🙌 Styling the App](#-styling-the-app)
+-   [🗄️ Configuration Files](#%EF%B8%8F-configuration-files)
+    -   [⁉️ Webpack Config 🤦🤦](#%EF%B8%8F-webpack-config-)
+-   [🔐 Closing Remarks](#-closing-remarks)
 
 &nbsp;
 
