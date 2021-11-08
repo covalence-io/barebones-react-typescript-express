@@ -124,12 +124,31 @@ Thankfully, you can write normal CSS just as you like! Add class selectors, elem
 -   [Overriding Bootstrap Variables](https://youtu.be/QP3fG31CdMg) which goes over the basics of ... overriding Bootstrap variables! You'll notice this boilerplate already provides a basic example of that:
 
 ```css
+// First override some or all individual color variables
+$primary: #25408f;
+$secondary: #8f5325;
+$success: #3e8d63;
+$info: #13101c;
+$warning: #945707;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Then add them to your custom theme-colors map, together with any additional colors you might need
 $theme-colors: (
-	'primary': #0091ea //Covalence Blue!  :D
+	primary: $primary,
+	secondary: $secondary,
+	success: $success,
+	info: $info,
+	warning: $warning,
+	danger: $danger,
+	light: $light,
+	dark: $dark,
+	// add any additional color below
 );
 ```
 
-This takes the Bootstrap variable `primary` _anywhere_ you use it and replaces it with a new color code of Covalence Blue! Add `bg-primary`, `text-primary`, and `border-primary` to some elements in your TSX and notice how the regular deep blue Bootstrap color is now replaced by our custom one. You can override all the color-specific keywords using this to add your own custom feel to your React Bootstrap app!
+This takes the **all** Bootstrap variables _anywhere_ you use it and replaces it with a new color code! Add `bg-primary`, `text-primary`, and `border-primary` to some elements in your TSX and notice how the regular deep blue Bootstrap color is now replaced by our custom one. You can override all the color-specific keywords using this to add your own custom feel to your React Bootstrap app!
 
 &nbsp;
 
