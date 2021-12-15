@@ -123,7 +123,7 @@ Thankfully, you can write normal CSS just as you like! Add class selectors, elem
 -   [Let's Get Sassy](https://youtu.be/s9mkU-a0nPo) which is an intro to SASS as a concept, its advantages over regular CSS, how to add it to a project (remember you don't need to do that here), and some tricks to using it.
 -   [Overriding Bootstrap Variables](https://youtu.be/QP3fG31CdMg) which goes over the basics of ... overriding Bootstrap variables! You'll notice this boilerplate already provides a basic example of that:
 
-```css
+```sass
 // First override some or all individual color variables
 $primary: #25408f;
 $secondary: #8f5325;
@@ -136,15 +136,15 @@ $dark: #343a40;
 
 // Then add them to your custom theme-colors map, together with any additional colors you might need
 $theme-colors: (
-	primary: $primary,
-	secondary: $secondary,
-	success: $success,
-	info: $info,
-	warning: $warning,
-	danger: $danger,
-	light: $light,
-	dark: $dark,
-	// add any additional color below
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  // add any additional color below
 );
 ```
 
