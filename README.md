@@ -162,9 +162,9 @@ This takes the **all** Bootstrap variables _anywhere_ you use it and replaces it
 
 -   `README.md` the markdown file that displays here in GitHub that you're reading right now. And what I probably use as my "lecture" notes during my videos!
 
--   `tsconfig.client.json` the TypeScript rules our TSC compiler will follow and allow when building our React app. There are several options to play with to standarize `import` statements, allow the use of `any` (don't do this though lol), but make sure not to remove `"jsx": "react",` by mistake or it won't know what you're trying to write in those `.tsx` files!
+-   `src/client/tsconfig.json` the TypeScript rules our TSC compiler will follow and allow when building our React app. There are several options to play with to standarize `import` statements, allow the use of `any` (don't do this though lol), but make sure not to remove `"jsx": "react",` by mistake or it won't know what you're trying to write in those `.tsx` files!
 
--   `tsconfig.server.json` the same as above, basically, except for our server code. We tell it to include the types for `node` and `express` so it can help us write the basics of our server with improved intellisense support and less manual strong typing. Basically it makes our TSC "infer" some of the basic server types for us automatically.
+-   `src/server/tsconfig.json` the same as above, basically, except for our server code. We tell it to include the types for `node` and `express` so it can help us write the basics of our server with improved intellisense support and less manual strong typing. Basically it makes our TSC "infer" some of the basic server types for us automatically.
 
 -   `webpack.config.js` the rules, loaders, and plugins our entire build process follows. There's a lot of stuff _bundled_ 🤣🤣 in this one .. so let's break down the high points in its own subsection below.
 
