@@ -11,7 +11,8 @@ const serverConfig = {
 				loader: 'ts-loader',
 				exclude: /node_modules/,
 				options: {
-					configFile: 'tsconfig.server.json'
+					context: path.resolve(__dirname, './src/server'),
+					configFile: 'tsconfig.json'
 				}
 			}
 		]
@@ -41,7 +42,8 @@ const clientConfig = {
 				loader: 'ts-loader',
 				exclude: /node_modules/,
 				options: {
-					configFile: 'tsconfig.client.json'
+					context: path.resolve(__dirname, './src/client'),
+					configFile: 'tsconfig.json'
 				}
 			},
 			{
